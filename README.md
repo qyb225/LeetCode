@@ -6,7 +6,15 @@
 
 ---
 
-* **2016.04.30**
+* **2016.04.31**
+
+  完成：
+  
+  **Problem 3**  [Click](https://leetcode.com/problems/zigzag-conversion/)
+
+---
+
+* **2016.04.30**  
 
   完成：
   
