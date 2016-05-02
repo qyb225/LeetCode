@@ -14,6 +14,8 @@
 
   **Problem 21**  [Click](https://leetcode.com/problems/merge-two-sorted-lists/)
 
+  **Problem 69**  [Click](https://leetcode.com/problems/sqrtx/)
+
 ---
 
 * **2016.05.01**
