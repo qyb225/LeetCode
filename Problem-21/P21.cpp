@@ -1,47 +1,61 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
+struct ListNode {
+      int val;
+      ListNode *next;
+      ListNode(int x) : val(x), next(NULL) {}
+};
+ 
 class Solution {
 public:
-    string longestPalindrome(string);
-    bool isPalindrome(string);
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2);
 };
 
-string Solution::longestPalindrome(string s) {
-    string ans = "";
-    int i = 0, j = s.length() - 1;
-    
-    while (i < s.length() - ans.length()) {
-        j = s.length() - 1;
-        while (j >= i) {
-            if (s[i] == s[j]) {
-                if (isPalindrome(s.substr(i + 1, j - i - 1))) {
-                    if (j - i + 1 > ans.length()) {
-                        ans = s.substr(i, j - i + 1);
-                    }
-                }
-            }
-            j--;
-        }
-        i++;
+ListNode * Solution::mergeTwoLists(ListNode * l1, ListNode * l2) {
+    ListNode * ans = NULL;
+    ListNode * head1 = l1, * head2 = l2;
+    ListNode * head = NULL;
+    if (l1 == NULL) {
+        return l2;
     }
-    return ans;
-}
+    else if (l2 == NULL) {
+        return l1;
+    }
 
-bool Solution::isPalindrome(string s) {
-    if (s.length() == 1 || s.length() == 0) {
-        return true;
+    else if (l1 == NULL && l2 == NULL) {
+        return NULL;
+    }
+
+    if (head1 -> val < head2 -> val) {
+        head = head1;
+        head1 = head1 -> next;
     }
     else {
-        return (s[0] == s[s.length() - 1]) && isPalindrome(s.substr(1, s.length() - 2));
+        head = head2;
+        head2 = head2 -> next;
     }
-}
+    ans = head;
 
-int main() {
-    Solution p;
-    string s = "dabcbab";
-    cout << p.longestPalindrome(s) << endl;
-    return 0;
+    while (head1 != NULL && head2 != NULL) {
+        if (head1 -> val < head2 -> val) {
+            head -> next = head1;
+            head1 = head1 -> next;
+            head = head -> next;
+        }
+        else {
+            head -> next = head2;
+            head2 = head2 -> next;
+            head = head -> next;
+        }
+    }
+    if (head1 == NULL) {
+        head -> next = head2;
+    }
+    else if (head2 == NULL) {
+        head -> next = head1;
+    }
+
+    return ans;
 }
