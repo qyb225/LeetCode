@@ -1,10 +1,19 @@
-## LeetCode
+﻿## LeetCode
 
 来自 LeetCode Judge Online 的程序在线测评网站。 [LeetCode传送门](https://leetcode.com/)
 
 目标：每天至少坚持完成一道题目。
 
 ---
+
+* **2016.05.04**
+
+  完成：
+
+  **Problem 2**  [Click](https://leetcode.com/problems/add-two-numbers/)
+
+---
+
 
 * **2016.05.03**
 
