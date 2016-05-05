@@ -6,6 +6,15 @@
 
 ---
 
+
+* **2016.05.05**
+
+  完成：
+
+  **Problem 14**  [Click](https://leetcode.com/problems/longest-common-prefix/)
+
+---
+
 * **2016.05.04**
 
   完成：
