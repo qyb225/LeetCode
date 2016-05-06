@@ -7,6 +7,15 @@
 ---
 
 
+* **2016.05.06**
+
+  完成：
+
+  **Problem 26**  [Click](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+
+---
+
+
 * **2016.05.05**
 
   完成：
