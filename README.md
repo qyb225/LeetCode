@@ -7,6 +7,14 @@
 ---
 
 
+* **2016.05.07**
+
+  完成：
+
+  **Problem 27**  [Click](https://leetcode.com/problems/remove-element/)
+
+---
+
 * **2016.05.06**
 
   完成：
