@@ -7,6 +7,24 @@
 ---
 
 
+* **2016.05.08**
+
+  完成：
+
+  **Problem 58**  [Click](https://leetcode.com/problems/length-of-last-word/)
+
+---
+
+
+* **2016.05.08**
+
+  完成：
+
+  **Problem 28**  [Click](https://leetcode.com/problems/implement-strstr/)
+
+---
+
+
 * **2016.05.07**
 
   完成：
