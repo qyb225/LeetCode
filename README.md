@@ -7,6 +7,16 @@
 ---
 
 
+* **2016.05.10**
+
+  完成：
+
+  **Problem 66**  [Click](https://leetcode.com/problems/plus-one/)
+
+---
+
+
+
 * **2016.05.08**
 
   完成：
