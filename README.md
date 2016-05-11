@@ -7,6 +7,14 @@
 ---
 
 
+* **2016.05.11**
+
+  完成：
+
+  **Problem 67**  [Click](https://leetcode.com/problems/add-binary/)
+
+---
+
 * **2016.05.10**
 
   完成：
