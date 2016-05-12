@@ -7,6 +7,14 @@
 ---
 
 
+* **2016.05.12**
+
+  完成：
+
+  **Problem 83**  [Click](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+
+---
+
 * **2016.05.11**
 
   完成：
