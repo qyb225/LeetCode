@@ -6,6 +6,24 @@
 
 ---
 
+* **2016.05.15**
+
+  完成：
+
+  **Problem 344**  [Click](https://leetcode.com/problems/reverse-string/)
+
+  **Problem 345**  [Click](https://leetcode.com/problems/reverse-vowels-of-a-string/)
+
+---
+
+* **2016.05.14**
+
+  完成：
+
+  **Problem 50**  [Click](https://leetcode.com/problems/powx-n/)
+
+---
+
 * **2016.05.13**
 
   完成：
