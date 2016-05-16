@@ -6,6 +6,14 @@
 
 ---
 
+* **2016.05.16**
+
+  完成：
+
+  **Problem 342**  [Click](https://leetcode.com/problems/power-of-four/)
+
+---
+
 * **2016.05.15**
 
   完成：
