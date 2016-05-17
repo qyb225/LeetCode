@@ -6,6 +6,16 @@
 
 ---
 
+* **2016.05.17**
+
+  完成：
+
+  **Problem 231**  [Click](https://leetcode.com/problems/power-of-two/)
+
+  **Problem 326**  [Click](https://leetcode.com/problems/power-of-three/)
+
+---
+
 * **2016.05.16**
 
   完成：
