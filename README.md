@@ -6,11 +6,37 @@
 
 ---
 
+* **2016.05.22**
+
+  完成：
+
+  **Problem 217**  [Click](https://leetcode.com/problems/contains-duplicate/)
+
+---
+
+* **2016.05.21**
+
+  完成：
+
+  **Problem 258**  [Click](https://leetcode.com/problems/add-digits/)
+
+---
+
+
+* **2016.05.20**
+
+  完成：
+
+  **Problem 283**  [Click](https://leetcode.com/problems/move-zeroes/)
+
+---
+
+
 * **2016.05.19**
 
   完成：
 
-  **Problem ...**  [Click]()
+  **Problem 290**  [Click](https://leetcode.com/problems/word-pattern/)
 
 ---
 
