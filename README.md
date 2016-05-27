@@ -6,6 +6,14 @@
 
 ---
 
+* **2016.05.26**
+
+  完成：
+
+  **Problem 189**  [Click](https://leetcode.com/problems/rotate-array/)
+
+---
+
 * **2016.05.25**
 
   完成：
