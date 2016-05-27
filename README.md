@@ -6,6 +6,14 @@
 
 ---
 
+* **2016.05.25**
+
+  完成：
+
+  **Problem 202**  [Click](https://leetcode.com/problems/happy-number/)
+
+---
+
 * **2016.05.24**
 
   完成：
