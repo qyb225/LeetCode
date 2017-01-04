@@ -1,28 +1,17 @@
 #include <iostream>
-
 using namespace std;
 
 class Solution {
 public:
     int reverse(int x);
+    long long pow10(long long int);
+    long long my_abs(long long int);
 };
 
-int pow10(int);
-int my_abs(int);
-
-int pow10(int n) {
-    if (0 == n) {
-        return 1;
-    }
-    else {
-        return 10 * pow10(n - 1);
-    }
-}
-
 int Solution::reverse(int x) {
-    int mid, n = 0, count = 0;
-    int judge = 1;
-    int = 0;
+    long long mid, n = 0, count = 0;
+    long long judge = 1;
+    long long ans = 0;
 
     if (x < 0) {
         judge = -1;
@@ -41,12 +30,23 @@ int Solution::reverse(int x) {
         x -= mid * pow10(count);
         count--;
     }
-    return judge * ans;       
+    ans = judge * ans;
+    return (ans > INT_MAX || ans < INT_MIN)? 0: ans;       
 }
 
-int my_abs(int a) {
+long long Solution::my_abs(long long int a) {
     if (a < 0) {
         a = -1 * a;
     }
     return a;
 }
+
+long long Solution::pow10(long long int n) {
+    if (0 == n) {
+        return 1;
+    }
+    else {
+        return 10 * pow10(n - 1);
+    }
+}
+

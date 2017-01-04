@@ -11,7 +11,6 @@ class Solution(object):
         if x < 0:
             judge = -1
         x = abs(x)
-        print x
         while (count >= 0):
             if x / (10 ** count) == 0:
                 break
@@ -23,4 +22,7 @@ class Solution(object):
             n += 1
             x -= mid * 10 ** count
             count -= 1
-        return judge * ans
+        ans = judge * ans
+        if ans > 2147483647 or ans < -2147483648: 
+            return 0
+        return ans
