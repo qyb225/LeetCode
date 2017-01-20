@@ -4,4 +4,4 @@
 Determine whether an integer is a palindrome. Do this without extra space.
 
 **Example:** 
-> x = 123321, answer: True
+> **x = 123321**, answer: **True**
