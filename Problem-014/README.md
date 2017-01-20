@@ -6,6 +6,6 @@ Write a function to find the longest common prefix string amongst an array of st
 
 **For example:**
 
-> Given **['abcd', 'abcef', 'abce']**
+> Given **["abcd", "abcef", "abce"]**
 
-> You should return the string  **'abc'**.
+> You should return the string  **"abc"**.
