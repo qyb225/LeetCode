@@ -6,4 +6,4 @@ Given a string S, find the longest palindromic substring in S. You may assume th
 
 **For example:**
 
-> s = "sabbad", should return "abba"
+> s = **"sabbad"**, should return **"abba"**
