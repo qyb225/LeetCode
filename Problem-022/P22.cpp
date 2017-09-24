@@ -7,16 +7,25 @@ using namespace std;
 class Solution {
 public:
     vector<string> generateParenthesis(int n);
-    vector<string> generateParenthesis(int n, vector<vector<string>>&);
+    vector<string> generateParenthesis(int n, vector<vector<string> >&);
     void multiply(vector<string> a, vector<string> b, vector<string>& ans);
 };
 
+int main() {
+    Solution p;
+    vector<string> ans = p.generateParenthesis(10);
+    for (int i = 0; i < ans.size(); ++i)
+        cout << ans[i] << endl;
+    return 0;
+}
+
 vector<string> Solution::generateParenthesis(int n) {
-    vector<vector<string>> bucks;
+    vector<vector<string> > bucks;
     return generateParenthesis(n, bucks);
 }
 
-vector<string> Solution::generateParenthesis(int n, vector<vector<string>>& bucks) {
+
+vector<string> Solution::generateParenthesis(int n, vector<vector<string> >& bucks) {
     if (n < bucks.size())
         return bucks[n];
     else if (n < 1) {
